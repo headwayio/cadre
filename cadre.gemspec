@@ -66,7 +66,7 @@ Gem::Specification.new do |spec|
   spec.rdoc_options	+= %w{--main doc/README }
   spec.rdoc_options	+= ["--title", "#{spec.name}-#{spec.version} Documentation"]
 
-  spec.add_dependency("thor", ">= 0.14", "< 1.0")
+  spec.add_dependency("thor", ">= 0.14")
   spec.add_dependency("tilt", "> 1.0")
   spec.add_dependency("valise", "~> 1.2")
 
